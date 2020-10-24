@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import './App.css';
+import './sass/main.scss';
 import IngredientChecklist from './components/IngredientChecklist';
 
 function App() {
