@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import './sass/main.scss';
 import IngredientChecklist from './components/IngredientChecklist';
 import LoadingPage from './components/LoadingPage';
 import Nav from './components/Nav'
+import './sass/main.scss';
 
 function App() {
   return (
