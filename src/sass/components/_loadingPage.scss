@@ -1,78 +1,148 @@
 body {
     margin: 0 0 0 0;
     background-color: #2c3e50;
-    animation-name: sky;
-    animation-duration: 6s;
+    animation-name: rainbow;
+    animation-duration: 12s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
-  
-  .grass {
-    background: green;
-    height: 600px;
-    width: 100%;
-    position: absolute;
+
+  .crown-still-one {
+    content: url('../../images/crown.png');
+    width: 600px;
+    animation: crown-still-one 10s linear infinite normal forwards;
+  }
+
+  .crown-still-two {
+    content: url('../../images/crown.png');
+    width: 600px;
+    animation: crown-still-two 10s linear infinite normal forwards;
+  }
+
+  .crown-still-three {
+    content: url('../../images/crown.png');
+    width: 600px;
+    animation: crown-still-three 10s linear infinite normal forwards;
+  }
+ 
+  .crown-one {
+    content: url('../../images/crown.png');
+    width: 400px;
+    animation: crown-one 10s linear infinite normal forwards;
+    position: relative;
+  }
+ 
+  .crown-two {
+    content: url('../../images/crown.png');
+    width: 300px;
+    animation: crown-two 10s linear infinite normal forwards;
+    position: relative;
   }
   
-  .sun {
-    background: #f1c40f;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-  /*   animation-name: sun;
-    animation-duration: 6s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: normal; 
-    animation-fill-mode: forwards;  */
-    animation: sun 6s linear infinite normal forwards;
+  .crown-six {
+    content: url('../../images/crown.png');
+    width: 500px;
+    animation: crown-six 10s linear infinite normal forwards;
+    position: relative;
   }
   
-  @keyframes sky {
+  @keyframes crown-still-one {
+    0% { 
+      transform: translate(150px, 250px)
+    }
+    100% {
+      transform: translate(150px, 250px);
+    } 
+  }
+  
+  @keyframes crown-still-two {
+    0% { 
+      transform: translate(350px, 450px)
+    }
+    100% {
+      transform: translate(350px, 450px);
+    } 
+  }
+  
+  @keyframes crown-still-three {
+    0% {  
+      transform: translate(750px, -455px)
+    }
+    100% {
+      transform: translate(750px, -455px);
+    } 
+  }
+  
+  @keyframes crown-one {
+    0% { 
+      left: -600px ;
+      top: 0px;
+    }
+    100% {
+      left: -600px ;
+      top: -700px;
+    } 
+  }
+  
+  @keyframes crown-two {
+    0% { 
+      left: 400px ;
+      top: 0px;
+    }
+    100% {
+      left: 400px ;
+      top: -700px;
+    } 
+  }
+  
+  @keyframes crown-six {
+    0% { 
+      left: 100px ;
+      bottom: 800px;
+    }
+    100% {
+      left: 900px ;
+      bottom: 800px;
+    } 
+  }
+
+  @keyframes rainbow {
     0% {
-      background-color: #2c3e50;
+      background-color: #145596;
     }
     10% {
-      background-color: #FFBDCB;  
+      background-color: #4e329c;  
+    }
+    20% {
+      background-color: #e07925;  
     }
     30% {
-      background-color: #8BCBFE;
+      background-color: #73c563;
+    }
+    40% {
+      background-color: #7f97da;
+    }
+    50% {
+      background-color: #a77ea0;
+    }
+    60% {
+      background-color: #3baf54;
     }
     70% {
       background-color: #8BCBFE;
     }
+    80% {
+      background-color: #fffd7b;
+    }
     90% {
-      background-color: #FFBDCB;
+      background-color: #eb4848;
     }
     100% {
-      background-color: #2c3e50;
+      background-color: #ae2fbe;
     }
   }
   
-  @keyframes sun {
-    0% {
-      background-color: #F7A25C; 
-      transform: translate(-200px, 200px)
-    }
-    25% {
-      background-color: #f1c40f;
-      transform: translate(330px, 0px);
-    }
-    50% {
-      background-color: #f1c40f;
-       transform: translate(860px, -50px);
-    }
-    75% {
-      background-color: #f1c40f;
-       transform: translate(1390px, 0px);
-    }
-    100% {
-      background-color: #EE2B22; 
-       transform: translate(1920px, 200px);
-    }
-    
-  }
-  
+
   
   
   

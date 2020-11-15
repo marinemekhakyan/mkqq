@@ -1,11 +1,13 @@
 import React from 'react';
-import ReactLoading from 'react-loading';
  
 const LoadingPage = () => (
     <div>
-    {/* <ReactLoading className="balls" type={'spinningBubbles'} color={'black'} height={'10%'} width={'10%'} /> */}
-    <div className="sun"></div>
-    <div className="grass"></div>
+        <span className="crown-still-one"></span>
+        <span className="crown-still-two"></span>
+        <span className="crown-still-three"></span>
+        <span className="crown-one"></span>
+        <span className="crown-two"></span> 
+        <span className="crown-six"></span>
     </div>
 );
  

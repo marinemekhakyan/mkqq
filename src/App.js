@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import IngredientChecklist from './components/IngredientChecklist';
-import LoadingPage from './components/LoadingPage';
+import Planner from './pages/Planner';
 import Nav from './components/Nav'
 import './sass/main.scss';
 
@@ -10,8 +9,7 @@ function App() {
     <div className="App">
       <Nav />
       <Switch>
-      <Route path='/planner' component={IngredientChecklist} /> {/*The switch tags will eventually wrap pages*/}
-      <Route path='/dinners' component={LoadingPage} /> {/*The switch tags will eventually wrap pages*/}
+        <Route path='/planner' component={Planner} /> {/*The switch tags will eventually wrap pages*/}
       </Switch>
     </div>
   );
