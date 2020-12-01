@@ -1,6 +1,4 @@
 .navigation { 
-
-
   &__checkbox {
     display: none;
 }
@@ -17,7 +15,6 @@
     box-shadow: 0 1rem 3rem rgba(black, .1);
     text-align: center;
     cursor: pointer;
-
 }
 
 &__background {
@@ -30,20 +27,9 @@
     background-image: radial-gradient(green, khaki);
     z-index: 1000;
     transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
-
 }
 
-
-    // &__background {
-
-    // }
-
     &__nav {
-      // height: 70px;
-      // width: 100%;
-      // display: flex;
-      // justify-content: space-between;
-      // margin-bottom: 25px;
       height: 100vh;
       position: fixed;
       top: 0;
@@ -54,14 +40,8 @@
       width: 0;
       transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-
-
+      
       &-items {
-        // width: 50%;
-        // height: 100%;
-        // display: flex;
-        // align-items: center;
-        // justify-content: flex-end;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -78,71 +58,19 @@
           color: $color-text;
 
           &--home{
-            &:link,
-            &:visited {
-                display: inline-block;
-                font-size: 3rem;
-                font-weight: 300;
-                padding: 1rem 2rem;
-                color: white;
-                text-decoration: none;
-                text-transform: uppercase;
-                background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
-                background-size: 220%;
-                transition: all .4s;
-            }
   
           }
   
           &--about {
-            &:link,
-            &:visited {
-                display: inline-block;
-                font-size: 3rem;
-                font-weight: 300;
-                padding: 1rem 2rem;
-                color: white;
-                text-decoration: none;
-                text-transform: uppercase;
-                background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
-                background-size: 220%;
-                transition: all .4s;
-            }
-  
+
           }
   
           &--dinners {
-            &:link,
-            &:visited {
-                display: inline-block;
-                font-size: 3rem;
-                font-weight: 300;
-                padding: 1rem 2rem;
-                color: white;
-                text-decoration: none;
-                text-transform: uppercase;
-                background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
-                background-size: 220%;
-                transition: all .4s;
-            }
   
           }
   
           &--planner {
-            &:link,
-            &:visited {
-                display: inline-block;
-                font-size: 3rem;
-                font-weight: 300;
-                padding: 1rem 2rem;
-                color: white;
-                text-decoration: none;
-                text-transform: uppercase;
-                background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
-                background-size: 220%;
-                transition: all .4s;
-    
-            }
+            
           }
         }
 
