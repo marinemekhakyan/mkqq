@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import IngredientChecklist from './components/IngredientChecklist';
+import Planner from './pages/Planner';
 import Nav from './components/Nav'
 import './sass/main.scss';
 

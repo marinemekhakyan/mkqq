@@ -1,0 +1,120 @@
+body {
+    margin: 0 0 0 0;
+    animation-name: sky;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  .santa {
+    content: url('../../images/santa.png');
+    width: 1000px;
+    position: absolute;
+    z-index: 1;
+    animation: santa 10s linear infinite normal forwards;
+  }
+
+  .cloudOne {
+    content: url('../../images/clouds.png');
+    width: 700px;
+    right: 600px;
+    top: 0px;
+    position: absolute;
+    opacity: 60%;
+  }
+ 
+  .cloudTwo {
+    content: url('../../images/clouds.png');
+    width: 800px;
+    right: 1000px;
+    top: 200px;
+    position: absolute;
+    opacity: 50%;
+  }
+  
+  .cloudThree {
+    content: url('../../images/clouds.png');
+    width: 850px;
+    right: 100px;
+    top: 400px;
+    position: absolute;
+    opacity: 50%;
+  }
+ 
+  .cloudFour {
+    content: url('../../images/clouds.png');
+    width: 350px;
+    right: 100px;
+    top: 400px;
+    position: absolute;
+    opacity: 50%;
+  }
+  
+  .cloudFive {
+    content: url('../../images/clouds.png');
+    width: 350px;
+    right: 1000px;
+    top: 400px;
+    position: absolute;
+    opacity: 50%;
+  }
+ 
+  .orangeClouds {
+    content: url('../../images/orangeClouds.png');
+    width: 650px;
+    left: 1100px;
+    top: 50px;
+    position: absolute;
+    opacity: 25%;
+  }
+ 
+  .orangeCloudsTwo {
+    content: url('../../images/orangeClouds.png');
+    width: 850px;
+    left: 50px;
+    bottom: 15px;
+    position: absolute;
+    opacity: 15%;
+  }
+
+  .react-audio-player {
+    display: none;
+  }
+
+  .stars {
+    content: url('../../images/starz.gif');
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 25%;
+  }
+  
+  @keyframes santa {
+    0% { 
+      transform: translate(0px, 400px)
+    }
+    100% {
+      transform: translate(1250px, 100px);
+    } 
+  }
+  
+  @keyframes sky {
+    0% {
+      background-color: #7998ee;
+    }
+    25% {
+      background-color: #406ec4;  
+    }
+    75% {
+      background-color: #2528c9;  
+    }
+    100% {
+      background-color: #091963;  
+    }
+  }
+  
+
+  
+  
+  
