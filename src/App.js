@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Nav />
       <Switch>
-      <Route path='/' component={IngredientChecklist} /> {/*The switch tags will eventually wrap pages*/}
+      <Route exact path='/planner' component={IngredientChecklist} /> {/*The switch tags will eventually wrap pages*/}
       </Switch>
     </div>
   );
